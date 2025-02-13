@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: account-service
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/account
     username: root
